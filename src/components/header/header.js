@@ -8,8 +8,8 @@ define(['vue', 'text!./header.vue'], (Vue, template) => {
     }),
     methods: {
       logout: function(e) {
-        e.preventDefault();
         window.localStorage.clear();
+        this.$router.push('/login')
       }
     }
   });

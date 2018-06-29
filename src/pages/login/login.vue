@@ -4,11 +4,11 @@
 
     <div class="form-group">
       <label for="username">Username</label>
-      <input type="text" name="username" id="username" v-model="username">
+      <input class="form-control" type="text" name="username" id="username" v-model="username">
     </div>
     <div class="form-group">
       <label for="username">Password</label>
-      <input type="password" name="password" id="password" v-model="password">
+      <input class="form-control" type="password" name="password" id="password" v-model="password">
     </div>
     <div class="form-group">
       <button type="submit" class="btn btn-sm btn-primary">Login</button>
